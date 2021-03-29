@@ -1,0 +1,27 @@
+==================================================
+VS11 - Themen, 1.SA (Termin: 27.01.2021)
+==================================================
+0.) Öffentliche Netze: 
+	- Datentransfergeschwindigkeitsberechnungen ... (Vd = D / t)
+	- VOIP ( ^ ... ggf. Theorie ... ^)
+
+1.) VLAN 
+	- portbasiertes vs. tagged VLANs (Basistheorie, darunter u.a. dyn./statische VLANs...)
+	- TCI-Berechnung (TCI = Tag Control Identifier)
+	- Vorteile, Nachteile
+
+2.) Virtualisierung
+	- Theorie (Hyper-V ... vs. VirtualBox => HW-nah .. vs. Applikation)
+	- Vor- Nachteile (Lernerei)
+	- Snapshot (Prüfpunkte), Basiswissen 
+
+3.) DNS
+	- Teil DNS-Skript:
+	 * DNS-"Baum" 
+	 * FQDN (= Fully Qualified Domain Name => www.help.google.de.)
+	 * Forward + Reverse Lookuptable
+	 * Zonenübertragung
+	 * Zonendelegierung und Weiterleitung
+	 * "nslookup" -> Verständis für "nicht autoritative Antwort"
+
+	 
