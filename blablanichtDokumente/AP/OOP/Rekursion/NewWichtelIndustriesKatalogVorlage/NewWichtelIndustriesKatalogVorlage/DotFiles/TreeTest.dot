@@ -1,0 +1,28 @@
+digraph BST {
+    node [fontname="Arial"];
+    "Name: Socke, Typ: Kleidung, Anzahl: 2"-> "Name: Apfel, Typ: Essbares, Anzahl: 1";
+    null0 [shape=point];
+    "Name: Apfel, Typ: Essbares, Anzahl: 1"-> null0;
+    "Name: Apfel, Typ: Essbares, Anzahl: 1"-> "Name: Schnelles Auto, Typ: Geschenk, Anzahl: 1";
+    "Name: Schnelles Auto, Typ: Geschenk, Anzahl: 1"-> "Name: Kaktus, Typ: Geschenk, Anzahl: 2";
+    "Name: Kaktus, Typ: Geschenk, Anzahl: 2"-> "Name: Jacke, Typ: Kleidung, Anzahl: 1";
+    null1 [shape=point];
+    "Name: Jacke, Typ: Kleidung, Anzahl: 1"-> null1;
+    null2 [shape=point];
+    "Name: Jacke, Typ: Kleidung, Anzahl: 1"-> null2;
+    "Name: Kaktus, Typ: Geschenk, Anzahl: 2"-> "Name: Schnelles Auto, Typ: Essbares, Anzahl: 1";
+    null3 [shape=point];
+    "Name: Schnelles Auto, Typ: Essbares, Anzahl: 1"-> null3;
+    null4 [shape=point];
+    "Name: Schnelles Auto, Typ: Essbares, Anzahl: 1"-> null4;
+    "Name: Schnelles Auto, Typ: Geschenk, Anzahl: 1"-> "Name: Schnelles Auto, Typ: Spielzeug, Anzahl: 1";
+    null5 [shape=point];
+    "Name: Schnelles Auto, Typ: Spielzeug, Anzahl: 1"-> null5;
+    null6 [shape=point];
+    "Name: Schnelles Auto, Typ: Spielzeug, Anzahl: 1"-> null6;
+    "Name: Socke, Typ: Kleidung, Anzahl: 2"-> "Name: Thermounterwäsche, Typ: Kleidung, Anzahl: 1";
+    null7 [shape=point];
+    "Name: Thermounterwäsche, Typ: Kleidung, Anzahl: 1"-> null7;
+    null8 [shape=point];
+    "Name: Thermounterwäsche, Typ: Kleidung, Anzahl: 1"-> null8;
+}
