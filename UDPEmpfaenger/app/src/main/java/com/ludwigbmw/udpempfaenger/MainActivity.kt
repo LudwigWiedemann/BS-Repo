@@ -34,10 +34,12 @@ open class MainActivity : AppCompatActivity() {
                 val buffer = ByteArray(2048)
                 var socket: DatagramSocket? = null
                 try {
-                    val locIP = InetAddress.getByName("192.168.2.19")
+                    val locIP = InetAddress.getByName("192.168.2.31")
                     socket = DatagramSocket(5004, locIP)
                     socket.broadcast = true
                     val packet = DatagramPacket(buffer, buffer.size)
+                    Log.e("LogTag", "before")
+
                     socket.receive(packet)
                     var msg = "String(packet.data)"
                     val message = Message.obtain()
