@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "UDPEmpfaenger"
+rootProject.name = "UDP Empfaenger"
