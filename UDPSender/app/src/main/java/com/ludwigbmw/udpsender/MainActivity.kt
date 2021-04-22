@@ -22,10 +22,10 @@ class MainActivity : AppCompatActivity() {
         override fun run() {
             var socket: DatagramSocket? = null
             try {
-                socket = DatagramSocket(5004,  InetAddress.getByName("192.168.2.31"))
+                socket = DatagramSocket()
                 socket.broadcast = true
                 var data = "hello".toByteArray()
-                var packet = DatagramPacket(data, data.size, InetAddress.getByName("0.0.0.0"), 5004)
+                var packet = DatagramPacket(data, data.size, InetAddress.getByName("192.168.2.30"), 5004)
                 socket.send(packet)
                 Log.d("sent", "sent")
             } catch (e: Exception) {
