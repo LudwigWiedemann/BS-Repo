@@ -1,2 +1,0 @@
-com/ludwigbmw/udpempfaenger/BuildConfig.java
- com.ludwigbmw.udpempfaenger.BuildConfig

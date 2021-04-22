@@ -1,2 +1,0 @@
-com/ludwigbmw/udpsender/BuildConfig.java
- com.ludwigbmw.udpsender.BuildConfig
