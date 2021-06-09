@@ -1,6 +1,0 @@
-
-hi          25
-test          12
-bleibst du hier          3456
-hello  23
-blablablablmanuellgeschrieben 1232
